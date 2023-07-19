@@ -22,7 +22,7 @@ function paywithSeerbit() {
       full_name: fullname, //optional
       tokenize: false, // set to true to allow token capture
       //   planId: "123456abcd", // subcription plan id.
-      callbackurl: "http://localhost:5173/",
+      callbackurl: "https://sneakers-drab.vercel.app/",
     },
     function callback(response, closeModal) {
       console.log(response); //response of transaction
